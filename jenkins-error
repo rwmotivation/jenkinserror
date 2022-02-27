@@ -1,0 +1,85 @@
+  560  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]     https://pkg.jenkins.io/debian binary/ | sudo tee     /etc/apt/sources.list.d/jenkins.list > /dev/null
+  561  jenkins --version
+  562  sudo systemctl start jenkins
+  563  wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+  564  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+  565  sudo apt update
+  566  sudo apt install jenkins
+  567  sudo systemctl start jenkins
+  568  java -version
+  569  apt install openjdk-8-jdk
+  570  sudo apt install openjdk-8-jdk
+  571  sudo apt-get install nginx
+  572  sudo systemctl start jenkins
+  573  sudo systemctl start nginx
+  574  sudo systemctl start jenkins
+  575  date; sudo systemctl start jenkins
+  576  sudo journalctl -xe
+  577  sudo systemctl show jenkins.service -p TimeoutStopUSec
+  578  sudo systemctl status jenkins
+  579  sudo ufw allow 8080 
+  580  sudo ufw allow OpenSSH 
+  581  sudo ufw allow OpenSSH
+  582  sudo ufw allow ssh
+  583  sudo systemctl start jenkins
+  584  sudo vi /etc/init.d/jenkins
+  585  sudo nano /etc/init.d/jenkins
+  586  sudo service jenkins start
+  587  sudo apt install openjdk-9-jre
+  588  sudo /etc/init.d/jenkins start 
+  589  /var/log/jenkins$ tail -f jenkins.log 
+  590  sudo lsb_release -a 
+  591  sudo sh jenkins status
+  592  service jenkins restart
+  593  java --version
+  594  /usr/bin/java -Djava.awt.headless=true -jar /usr/share/jenkins/jenkins.war --webroot=/var/cache/jenkins/war --httpPort=8080 --ajp13Port=-1
+  595  => wget -q -O – https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add –
+  596  wget -q -O – https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add –
+  597  echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+  598  sudo apt-get update
+  599  sudo apt-get install Jenkins
+  600  sudo apt get update
+  601  sudo apt update
+  602  sudo apt install openjdk-11-jdk
+  603  java --version
+  604  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+  605  sudo apt update
+  606  sudo apt install jenkins
+  607  sudo systemctl status jenkins
+  608  sudo systemctl start jenkins
+  609  sudo ufw enable
+  610  sudo ufw allow 8080
+  611  sudo ufw status
+  612  sudo apt install jenkins
+  613  sudo systemctl status jenkins
+  614  sudo apt install jenkins
+  615  sudo systemctl status jenkins
+  616  sudo apt install openjdk-11-jdk
+  617  java -version
+  618  wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+  619  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+  620  sudo apt install jenkins
+  621  systemctl status jenkins
+  622  sudo ufw allow proto tcp from 192.168.121.0/24 to any port 8080
+  623  systemctl status jenkins
+  624  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+  625  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+  626  sudo apt-get update
+  627  sudo apt-get install jenkins
+  628  sudo systemctl enable jenkins
+  629  sudo systemctl start jenkins
+  630  sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat/jenkins.repo
+  631  sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
+  632  sudo dnf upgrade
+  633  # Add required dependencies for the jenkins package
+  634  sudo dnf install java-11-openjdk
+  635  sudo dnf install jenkin
+  636  sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+  637  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+  638  sudo yum upgrade
+  639  # Add required dependencies for the jenkins package
+  640  sudo yum install java-11-openjdk
+  641  sudo yum install jenkins
+  642  sudo systemctl daemon-reloa
+  643  sudo systemctl enable jenkins
+  644  sudo systemctl start jenkins
